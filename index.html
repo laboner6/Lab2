@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Jinghao Miao's journal entries</title>
+        <link rel="logo" href="screenshots/logo.jpg" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#firstday">My First Day</a></li>
+                    <li><a href="#secondday">My Second Day</a></li>
+                    <li><a href="#thirdday">My Third Day</a></li>
+        </header>
+        <hr/>
+        <main>
+            <h1>Welcome to my Journal Entries!</h1>
+            Name: Jinghao Miao
+            <br/>
+            CSE 110 Lab2
+            <br/><br/>
+            <img
+                src="screenshots/logo.jpg"
+                alt="logo"
+                width="500"
+            />
+        </main>
+        <hr/>
+        <h2 id="firstday">My first day: 2021/4/5</h2>
+        <p>Coming back from hometown: ShaoXing.</p>
+        <hr/>
+        <h2 id="secondday">My second day: 2021/4/6</h2>
+        <p>Nice day with a lot of homework XD</p>
+        <hr/>
+        <h2 id="thirdday">My second day: 2021/4/7</h2>
+        <iframe src="//player.bilibili.com/player.html?aid=802492342&bvid=BV1qy4y1x7YB&cid=321016206&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <br/>
+        <details>
+            <i>Video made on this day. Playing <b>STAR CITIZEN</b> with my friends.</i>
+        </details>
+        <hr/>
+        <footer>
+            <br/>
+            <form onsubmit="alert('Successful! Thank you!')">
+                <fieldset>
+                    <legend>New Journal Entry</legend>
+                    <input type="checkbox" checked="checked" /> Did you have a nice day?
+                    <br/>
+                    <input type="radio" /> YOU SURE?
+                    <br/>
+                    Topic: <input type="text" placeholder="the topic"/>
+                    <br/>
+                    Content: <input type="text" placeholder="the content"/>
+                    <br/>
+                    Date: <input type="date" />
+                    <br/>
+                    <textarea rows="2" cols="30">Thanks for your addition!</textarea>
+                    <br/>
+                    What to do next?
+                    <br/>
+                    <input id="nextThing" list="next" placeholder="Choose One"/>
+                    <datalist id="next">
+                        <option value="Submit?">
+                        <option value="Or submit?">
+                        <option value="Or... Submit???">
+                    </datalist>
+                    <br/>
+                    What about next after the next above?
+                    <br/>
+                    <select>
+                        <option value="submit1">Submit?</option>
+                        <option value="submit2">Submit??</option>
+                        <option value="submit3">Submit???</option>
+                        <option value="submit4">Submit????</option>
+                    </select>
+                    <br/>
+                    <button>Submit</button>
+                  </fieldset>
+            </form>
+            <div>&copy; Jinghao Miao in CSE110</div>
+        </footer>
+    </body>
+</html>
